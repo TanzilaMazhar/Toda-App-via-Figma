@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.first {
+    padding-left: 50px;
+    display: flex;
+    border: none;
+    background: none;
+    padding-top: 20px;
+}
+
+.second {
+    background-color: black;
+    padding-left: 50px;
+    padding-bottom: 15px;
+    color: white;
+    display: flex;
+    margin-top:20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 200px;
+    height: 50px;
+}
+
+.third {
+    padding-left: 50px;
+    padding-top: 400px;
+    display: flex;
+    border: none;
+    background: none;
+}
+
+.task-btn {
+    padding-top: 20px;
+    background: none;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.location-btn {
+    padding-top: 20px;
+    background: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-logout {
+    background: none;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+#imgTask {
+    margin-right: 30px;
+    padding-top: 20px;
+}
+
+#imgLoc {
+    margin-right: 30px;
+    padding-top: 20px;
+}
+
+#imglog {
+    margin-right: 30px;
+}
+
+.second-col {
+    padding-left: 110px;
+    padding-top: 50px;
+    padding-right: 60px;
+
+}
+.second-col ul {
+    padding-top: 30px;
+    list-style: none;
+}
+
+.Check-In-btn {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.second-row {
+    background-color: gainsboro;
+    display: flex;
+    padding-left: 100px;
+    justify-content: space-evenly;
+    height: 30px;
+}
+
+.form-row {
+    display: flex;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 500px;
+}
+
+#form-row {
+    display: flex;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    /* width: 500px; */
+}
+
+.text {
+    color: rgb(173, 170, 170);
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}

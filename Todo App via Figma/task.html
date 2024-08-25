@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Task</title>
+    <link rel="stylesheet" href="task.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="first-col">
+            <div class="first">
+                <div>
+                    <img src="pictures/task.png" id="imgTask">
+                </div>
+                <div class="task">
+                    <button type="button" class="task-btn" >Task</button>
+                </div>
+            </div>
+            <div class="second">
+                <div>
+                    <img src="pictures/location.png" id="imgLoc">
+                </div>
+                <div class="location">
+                    <button class="location-btn" onclick="clickLocation()">Location</button>
+                </div>
+            </div>
+            <div class="third">
+                <div>
+                    <img src="pictures/logout.png" id="imglog">
+                </div>
+                <div>
+                    <button class="btn-logout" onclick="logout()">Logout</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="second-col">
+            <button class="Add-new-task-btn" onclick="showModal()">+ Add new task</button>
+            <div class="new-task-modal mymodel">
+                <form action="get.php" class="form">
+                    <h2>New Task</h2>
+                    <div class="form-row">
+                        <img src="pictures/sumry.png" class="logo">
+                        <input type="text" placeholder="Summary" class="Summary">
+                    </div>
+                    <hr>
+                    <div id="form-row">
+                        <img src="pictures/description.png" class="logo">
+                        <input type="text" placeholder="Description" class="description">
+                    </div>
+                    <hr>
+                    <div class="form-row">
+                        <img src="pictures/timer.png" class="logo">
+                        <input type="date" placeholder="Due Date" class="Duedate">
+                    </div>
+                    <hr>
+                    <div class="form-btn">
+                        <button id="btnsave" onclick="closemodal()">Save</button> <br>
+                        <button id="btnCancel" onclick="closemodal()">Cancel</button>
+                    </div>
+                </form>
+            </div>
+            <ul>
+                <li id="Incomplete">Incomplete</li>
+                <li id="complete">complete</li>
+            </ul>
+        </div>
+
+        <div class="third-col">
+            <div class="first-row">
+                <div>
+                    <h3>Submit my resume</h3>
+                    <p>Send my resume to Digital Tolk</p>
+                </div>
+                <img src="pictures/Frame.png">
+            </div>
+            <div class="second-row">
+                <button id="btn-skip" onclick="closepopUp()">skip</button>
+                <button id="btn-remind" onclick="RemindMeLater()">Remind me later</button>
+            </div>
+        </div>
+    </div>
+    <script src="task.js"></script>
+</body>
+
+</html>

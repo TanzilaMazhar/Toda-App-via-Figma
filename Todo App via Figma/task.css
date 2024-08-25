@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.first {
+    background-color: black;
+    padding-left: 50px;
+    padding-bottom: 15px;
+    color: white;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 200px;
+    height: 50px;
+}
+
+.second {
+    padding-left: 50px;
+    display: flex;
+    border: none;
+    background: none;
+}
+
+.third {
+    padding-left: 50px;
+    padding-top: 400px;
+    display: flex;
+    border: none;
+    background: none;
+}
+
+.task-btn {
+    padding-top: 20px;
+    background: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.location-btn {
+    background: none;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-logout {
+    background: none;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+#imgTask {
+    margin-right: 30px;
+    padding-top: 20px;
+}
+
+#imgLoc {
+    margin-right: 30px;
+}
+
+#imglog {
+    margin-right: 30px;
+}
+
+.second-col {
+    padding-left: 110px;
+    padding-top: 50px;
+    padding-right: 60px;
+
+}
+
+.second-col ul {
+    padding-top: 30px;
+    list-style: none;
+}
+
+.Add-new-task-btn {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 20px;
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+
+.third-col {
+    box-shadow: 0 8px 16px rgb(201, 195, 195);
+    height: 100px;
+    width: 330px;
+    margin-top: 50px;
+    border-radius: 10px;
+    position: absolute;
+    right: 2%;
+}
+
+.first-row {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.first-row h3 {
+    font-weight: bold;
+}
+
+.first-row h3,
+p {
+    padding-right: 20px;
+}
+
+.second-row {
+    background-color: gainsboro;
+    display: flex;
+    padding-left: 100px;
+    justify-content: space-evenly;
+    height: 30px;
+}
+
+#btn-skip {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#btn-remind {
+    background: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-row {
+    display: flex;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 500px;
+}
+
+#form-row {
+    display: flex;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    /* width: 500px; */
+}
+
+.text {
+    color: rgb(173, 170, 170);
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+.Summary {
+    color: rgb(173, 170, 170);
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+.description {
+    color: rgb(173, 170, 170);
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+.Duedate {
+    color: rgb(173, 170, 170);
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+.logo {
+    padding-right: 20px;
+}
+
+.form-btn {
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#btnsave {
+    border: none;
+    height: 50px;
+    width: 350px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btnCancel {
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    background: none;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.form {
+    box-shadow: 0 8px 16px rgb(201, 195, 195);
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+.new-task-modal {
+    display: none;
+}

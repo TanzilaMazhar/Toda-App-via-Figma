@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="location.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="first-col">
+            <div class="first">
+                <div>
+                    <img src="pictures/locTask.png" id="imgTask">
+                </div>
+                <div class="task">
+                    <button type="button" class="task-btn" onclick="clickTask()">Task</button>
+                </div>
+            </div>
+            <div class="second">
+                <div>
+                    <img src="pictures/Loclocation.png" id="imgLoc">
+                </div>
+                <div class="location">
+                    <button class="location-btn">Location</button>
+                </div>
+            </div>
+            <div class="third">
+                <div>
+                    <img src="pictures/logout.png" id="imglog">
+                </div>
+                <div>
+                    <button class="btn-logout" onclick="logout()">Logout</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="second-col">
+            <button type="text" class="Check-In-btn" onclick="checkIn()">+ Check In</button>
+            <ul>
+                <li class="Current">Current Location</li>
+            </ul>
+            <ul>
+                <li class="previous">previous Location</li>
+            </ul>
+        </div>
+
+
+    </div>
+    <script src="location.js"></script>
+</body>
+
+</html>
